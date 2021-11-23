@@ -136,9 +136,22 @@ ul {
   line-height: 1.8;
   padding-bottom: 60px;
 }
-@media (max-width: 767px) {
+@media (min-width: 992px) {
   .container .box p {
-    padding-bottom: 20px;
+    height: 160px;
+    text-overflow: hidden;
+  }
+}
+@media (min-width: 992px) {
+  .container .box p {
+    height: 160px;
+    text-overflow: hidden;
+  }
+}
+@media (min-width: 768px) {
+  .container .box p {
+    height: 160px;
+    text-overflow: hidden;
   }
 }
 .container [type="button"] {
