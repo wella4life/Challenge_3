@@ -1,0 +1,80 @@
+/*---------------------------------------------------------  Start Variables */
+:root {
+  --Bright-Orange: hsl(31, 77%, 52%);
+  --Dark-Cyan: hsl(184, 100%, 22%);
+  --Very-Dark-Cyan: hsl(179, 100%, 13%);
+  --Trans-White: hsla(0, 0%, 100%, 0.75);
+  --Very-Light-Gray: hsl(0, 0%, 95%);
+  --Font-Size: 15px;
+}
+/*-----------------------------------------------------------  End Variables */
+/*------------------------------------------------------  Start Global Rules */
+-webkit-box-sizing: border-box;
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+  transition: 0.5s;
+}
+body {
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.container {
+}
+@media (min-width: 768px) {
+  .container {
+    width: 375px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/*--------------------------------------------------------  End Global Rules */
+/*--------------------------------------------------------------  Start Code */
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+}
+.container .box {
+}
+.container .box .sedans {
+}
+.container .box .suvs {
+}
+.container .box .luxury {
+}
+.container .button {
+}
+.container .box img {
+}
+.container .box h2 {
+}
+.container .box p {
+}
+/*----------------------------------------------------------------  End Code */
