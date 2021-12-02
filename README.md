@@ -6,6 +6,7 @@
 
  - Users should be able to:
    - View the optimal layout for the site depending on their device's screen size
+   - Hover stats on "Learn More"
 
  - What I Learned:
    - Grid eases up the switch from Desktop to Mobile version
