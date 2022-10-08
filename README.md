@@ -1,6 +1,6 @@
 - Overview:
-  - [3-Column Preview Card](#the-challenge)
-  - [https://wella4life.github.io/Challenge_3_Easy/](#links)
+  - [3-Column Preview Card]
+  - [https://wella4life.github.io/Challenge_3_Easy/]
   - ![](images/Finished-Desktop.jpg)
   - ![](images/Finished-Mobile.jpg)
 
